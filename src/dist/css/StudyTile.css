@@ -1,0 +1,92 @@
+.study-tile {
+  max-width: 1027px;
+  margin: auto;
+}
+.study-tile h1 {
+  color: rgb(121, 63, 152);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  display: flex;
+  margin: 36px auto;
+  justify-content: center;
+  text-align: center;
+}
+@media (max-width: 760px) {
+  .study-tile h1 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 19px auto;
+  }
+}
+.study-tile__main-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.study-tile__main-cards__cards {
+  margin: 10px;
+  padding-bottom: 24px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(60, 64, 67, 0.15), 0 1px 2px rgba(60, 64, 67, 0.3), 0 3px 5px rgba(128, 134, 139, 0.06), 0 -1px 5px rgba(128, 134, 139, 0.09);
+}
+.study-tile__main-cards__cards img {
+  width: 100%;
+}
+.study-tile__main-cards__cards h3 {
+  color: black;
+  font-weight: 700;
+  line-height: 32px;
+  font-size: 24px;
+  max-width: 100%;
+  padding: 24px 12px;
+  text-align: center;
+}
+.study-tile__main-cards__cards p {
+  color: black;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+  max-width: 85%;
+  margin: 0 37px;
+  text-align: center;
+}
+.study-tile__main-cards__cards .btn {
+  display: flex;
+  justify-content: center;
+  margin: 24px auto;
+}
+.study-tile__main-cards__cards .btn button {
+  background-color: #793f98;
+  color: white;
+  height: 40px;
+  padding: 10px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+}
+@media (max-width: 760px) {
+  .study-tile__main-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.study-tile .load {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+.study-tile .load button {
+  background-color: transparent;
+  color: #793f98;
+  height: 40px;
+  padding: 10px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-decoration: none;
+  border: 1px solid #793f98;
+  border-radius: 5px;
+}/*# sourceMappingURL=StudyTile.css.map */

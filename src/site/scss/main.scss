@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    // border: 2px solid red;
+  }
+
+@import "../../component/navbar/Navbar.scss";
+@import "../../component/hero/Hero.scss";
+@import "../../component/partner/partner.scss";
+@import "../../component/carousel/Carousel.scss";
+@import "../../component/study-tile/StudyTile.scss";
+@import "../../component/footer/Footer.scss";
+@import "../../component/filter/Filter.scss";
